@@ -1,0 +1,9 @@
+C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\bin\Debug\BusinessData.dacpac
+C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\bin\Debug\BusinessData.dll
+C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\bin\Debug\BusinessData.pdb
+C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\obj\Debug\Model.xml
+C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\obj\Debug\refactor.xml
+C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\obj\Debug\postdeploy.sql
+C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\obj\Debug\predeploy.sql
+C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\obj\Debug\BusinessData.dll
+C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\obj\Debug\BusinessData.pdb
