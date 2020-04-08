@@ -7,3 +7,9 @@ C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\obj\Debug\postd
 C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\obj\Debug\predeploy.sql
 C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\obj\Debug\BusinessData.dll
 C:\Users\David.McNally\GoodEats\BusinessListingsAPI\BusinessData\obj\Debug\BusinessData.pdb
+C:\Users\David.McNally\DavRepositories\GoodEatsApplication\BusinessData\bin\Debug\BusinessData.dacpac
+C:\Users\David.McNally\DavRepositories\GoodEatsApplication\BusinessData\bin\Debug\BusinessData.dll
+C:\Users\David.McNally\DavRepositories\GoodEatsApplication\BusinessData\bin\Debug\BusinessData.pdb
+C:\Users\David.McNally\DavRepositories\GoodEatsApplication\BusinessData\obj\Debug\BusinessData.sqlprojAssemblyReference.cache
+C:\Users\David.McNally\DavRepositories\GoodEatsApplication\BusinessData\obj\Debug\BusinessData.dll
+C:\Users\David.McNally\DavRepositories\GoodEatsApplication\BusinessData\obj\Debug\BusinessData.pdb
