@@ -18,14 +18,14 @@ namespace GoodEatsUI.Controllers
 
         private IAPIHelper _apiHelper;
         private IAuthenticatedUser _user;
-        private LoginAction _login;
+        private ILoginAction _login;
 
     
-        public UserController(IAuthenticatedUser user, IAPIHelper apiHelper)
+        public UserController(IAuthenticatedUser user, IAPIHelper apiHelper, ILoginAction login)
         {
             _apiHelper = apiHelper;
             _user = user;
-            _login = new LoginAction(_user, apiHelper);
+            _login = login;
         }
 
 

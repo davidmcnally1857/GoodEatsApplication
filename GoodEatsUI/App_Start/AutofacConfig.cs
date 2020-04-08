@@ -2,6 +2,7 @@
 using Autofac.Integration.Mvc;
 using GoodEatsUI;
 using GoodEatsUI.Controllers;
+using GoodEatsUI.Models;
 using System.Reflection;
 using System.Web.Mvc;
 using WebApplicationLibrary.Api;
@@ -25,6 +26,7 @@ namespace UserAccAPI.App_Start
 
             builder.RegisterType<AuthenticatedUser>().As<IAuthenticatedUser>();
             builder.RegisterType<APIHelper>().As<IAPIHelper>();
+            builder.RegisterType<LoginAction>().As<ILoginAction>();
 
             var container = builder.Build();
 
