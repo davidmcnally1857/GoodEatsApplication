@@ -156,6 +156,9 @@
     <Content Include="Content\Internal.Content\images\burger.jfif" />
     <Content Include="Content\Internal.Content\images\delivery_1.jfif" />
     <Content Include="Content\Internal.Content\images\delivery_bike.png" />
+    <Content Include="Content\Internal.Content\images\foodideas.jfif" />
+    <Content Include="Content\Internal.Content\images\foodimages.jfif" />
+    <Content Include="Content\Internal.Content\images\foodoptions.jfif" />
     <Content Include="Content\Internal.Content\images\localbusiness.jfif" />
     <Content Include="Content\Internal.Content\styles.css" />
     <Content Include="Content\toastr.css" />

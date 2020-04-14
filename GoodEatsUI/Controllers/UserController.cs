@@ -16,14 +16,14 @@ namespace GoodEatsUI.Controllers
     public class UserController : Controller
     {
 
-        private IAPIHelper _apiHelper;
+      
         private IAuthenticatedUser _user;
         private ILoginAction _login;
 
     
-        public UserController(IAuthenticatedUser user, IAPIHelper apiHelper, ILoginAction login)
+        public UserController(IAuthenticatedUser user, ILoginAction login)
         {
-            _apiHelper = apiHelper;
+           
             _user = user;
             _login = login;
         }
@@ -47,42 +47,8 @@ namespace GoodEatsUI.Controllers
 
         }
 
-
-
-        // GET: User
-        
-             
-        //public async Task Login(FormCollection collection)
-        //{
-           
-
-        //    try
-        //    {
-
-
-        //        string username = collection[0];
-        //        string password = collection[1];
-
-        //       _user = await _apiHelper.Authenticate(username, password);
-            
-              
-
-        //    }
-
-
-        //    catch (Exception ex)
-        //    {
-
-        //        Console.WriteLine(ex.Message);
-
-        //    }
-
-
-
-        //    LoginConfirmation(_user);
-
-
-        //}
+                    
+       
 
         public ActionResult LoginConfirmation(AuthenticatedUser result)
         {
