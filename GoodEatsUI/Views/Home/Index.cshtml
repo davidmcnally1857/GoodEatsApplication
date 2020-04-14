@@ -20,7 +20,7 @@
 
 
 
-            <h2>Local Food</h2>
+            <h3>Local Food</h3>
 
             <p>
                 Get food delivered from local food business in your area to you
@@ -33,7 +33,7 @@
         <div class="card col-md-3">
 
             <img src="~/Content/Internal.Content/images/burger.jfif" alt="" />
-            <h2>Fast and Reliable</h2>
+            <h3>Fast and Reliable</h3>
             <p>Fast delivery in your Area check here for details on how to order</p>
             <!-- <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p> -->
         </div>
@@ -42,7 +42,7 @@
         <div class="card col-md-3">
 
             <img src="~/Content/Internal.Content/images/localbusiness.jfif" alt="" />
-            <h2>Get Involved!</h2>
+            <h3>Get Involved!</h3>
 
             <p> Contact us here to link your food business to our page and set up there!</p>
             <!--    <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p> -->
@@ -114,7 +114,7 @@
 
         </div>
         <div class="col-md-3">
-            <div class="image-container" >
+            <div class="image-container">
                 <img src="~/Content/Internal.Content/images/foodoptions.jfif" alt="" />
                 <div class="image-text">Healthy Options</div>
                 <p> Catering options for parties, office gatherings check out our selections here!</p>
@@ -142,10 +142,23 @@
             </div>
 
         </div>
-        </div>
-        
     </div>
 
-        <div class="HelpContainer">
-            <div class="HelpSection"><h4> Chat Here For Help </h4>  <p>💬</p> </div>
-        </div>
+</div>
+
+<div class="HelpSection">
+<div class="HelpContainer" onclick="openChat()">
+    <div class="HelpSection"><h4> Chat Here For Help </h4>  <p>💬</p> </div>
+</div>
+<div class="chat-popup" id="Form">
+    <div class="form-container">
+
+    <h4>Chat</h4>
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message..."
+              name="msg" required></textarea>
+        <button type="submit" class="bg-success">Send</button>
+    </div>
+</div>
+</div>
+
