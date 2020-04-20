@@ -28,6 +28,11 @@ namespace GoodEatsUI.Controllers
             _login = login;
         }
 
+        public string Index()
+        {
+            return "Login denied";
+        }
+
 
         public async Task<ActionResult> Login(FormCollection collection)
         {

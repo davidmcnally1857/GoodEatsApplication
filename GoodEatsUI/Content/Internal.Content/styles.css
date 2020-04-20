@@ -1,12 +1,246 @@
-﻿/*
+﻿
+html {
+
+}
+
+body {
+
+   
+
+}
+
+
+
+.navbar-brand {
+    font-family: 'Fira Sans', sans-serif !important;
+    font-size: 2rem !important;
+    color: #FF5A5F !important;
+    font-weight: 700 !important;  
+}
+
+
+
+.bg {
+    background-image: url('images/plate.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+
+.jumbotron { 
+
+    background-color: white !important ;
+    text-align:center;
+    position:absolute;
+    top:20%;
+    left:25%;   
+    padding:5% 5% !important;
+    height:70%;
+    border-radius:10px !important;
+   
+}
+
+    .jumbotron h4 {
+        font-size: 25px !important;
+        font-weight: 700 !important;
+        font-family: 'Quicksand', sans-serif !important;
+    }
+
+    .jumbotron a {
+        background-image: linear-gradient(to right, #ff512f, #dd2476 );
+        margin: 10%;
+        width: 30%;
+    }
+
+
+    .jumbotron input {
+        width:80%;
+
+    }
+
+
+.middle-page {
+
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.ad {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #8f8f8f;
+    margin: 2%;
+    
+   
+}
+
+.ad h3 {
+
+    font-weight: bold !important;
+    color: #000000;
+  
+
+}
+
+    .ad p {
+
+        padding: 0 8%;
+             
+    }
+
+
+
+.Contact-Advertisement {
+    padding: 8% 15%;
+}
+
+
+.information-details {
+
+    background-color: rgb(247, 247, 247);
+    padding:5%;
+}
+
+.information-details ul {
+
+    list-style-type:none;
+}
+
+#hiddenchat {
+    display: none;
+}
+
+
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 89%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+
+footer {
+    text-align: center;
+}
+.payment {
+    background-color:#fff;
+    height:60px;
+   
+}
+
+.payment p  {
+    margin-top:15px;
+    margin-left:12px;
+    float:left;
+    font-size:16px;
+    font-weight:700;
+}
+
+    .payment img {
+
+        
+        width:45px;
+        height:60%;
+        margin-left:10px;
+        margin-top:10px;
+    }
+
+
+.modal-header {
+    text-align: center;
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+
+
+.emailsection .email {
+    margin: 5px;
+    width: 80%;
+}
+
+.passwordsection .password {
+    margin: 5px;
+    width: 80%;
+}
+
+.HelpContainer {
+    height: 200px;
+}
+
+.HelpSection {
+    height: 8%;
+    width: 200px;
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-top: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 89%;
+}
+
+    .HelpSection h4 {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .HelpSection :hover {
+        cursor: pointer;
+    }
+
+
+.form-container {
+    background-color: #ffffff;
+    max-width: 300px;
+    padding: 10px;
+    color: #000000;
+}
+
+    .form-container textarea {
+        width: 100%;
+        min-height: 200px;
+    }
+
+        .form-container textarea:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+
+    .form-container button {
+        background-image: linear-gradient(to right, #ff512f, #dd2476 );
+        width: 100%;
+        padding: 16px 20px;
+        color: #fff;
+    }
+
+
+
+
+    /*
 
 
     Heading Section
 
 */
-
-
-
+    /*
 html {
 
     height:100%;
@@ -17,7 +251,7 @@ body {
     height: 100%;
     font-family: 'Yu Gothic' !important;
     background-color: #e7e6d0 !important;
-    padding: 0;
+    padding: 0 !important;
     margin: 0;
     border: 0;
 }
@@ -25,17 +259,20 @@ body {
 .bg {
     background-image: url("https://www.rainbowvalley.com.au/wp-content/uploads/2017/02/food-background.jpg");
     /* Half height of the body*/
+    /*
     height: 70%;
+
+    */
     /* Center and scale the image nicely */
+    /*
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position:relative;
 }
-
-
-/* Override the navbar header in bootstrap*/
-
+    */
+    /* Override the navbar header in bootstrap*/
+    /*
 .navbar   {
     background-color:#71B37E;
     color: #fff;
@@ -59,11 +296,6 @@ body {
     
     }
 
-.container-nav {
-    width: 88%;
-    padding-top: 15px;
-    float: left;
-}
 
 .navbar-brand {
     padding: 0;
@@ -98,8 +330,7 @@ a {
     Login and Signup Modals
 
 */
-
-
+    /*
 
 .modal-header {
 
@@ -141,6 +372,7 @@ a {
     Main body of page
 
 */
+    /*
 
 .Hero {
 
@@ -238,7 +470,7 @@ a {
         Bottom Section
 
     */
-
+    /*
 .information-details {
     height: 30%;
     background-color: #A3BEA9;
@@ -282,11 +514,13 @@ a {
 
 .HelpContainer {
 
+
 height:200px;
 
 }
 
 .HelpSection {
+   
     height: 8%;
     width:200px;
     background-color: lightgreen;
@@ -299,7 +533,7 @@ height:200px;
     text-align:center;
     position:fixed;
     bottom:0;
-    left:90%;
+    left:89%;
 }
 
     .HelpSection h4 {
@@ -311,6 +545,11 @@ height:200px;
         cursor:pointer;
       
     }
+
+#hiddenchat {
+
+  display:none;
+}
 
 
 .HelpSection p {
@@ -367,7 +606,7 @@ height:200px;
     display:none;
     position:fixed;
     bottom:0;
-    left:90%;
+    left:89%;
     border: 3px solid #f1f1f1;
     z-index:9;
     
@@ -408,6 +647,7 @@ height:200px;
 
 
     */
+    /*
 footer {
     text-align: center;
 }
@@ -441,10 +681,7 @@ footer {
         Container Body Content override
 
     */
-
-
-
-
+    /*
 .container {
    
     width:100%;
@@ -461,3 +698,4 @@ footer {
 
 }
 
+*/

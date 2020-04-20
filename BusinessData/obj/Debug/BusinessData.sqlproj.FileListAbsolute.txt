@@ -13,3 +13,9 @@ C:\Users\David.McNally\DavRepositories\GoodEatsApplication\BusinessData\bin\Debu
 C:\Users\David.McNally\DavRepositories\GoodEatsApplication\BusinessData\obj\Debug\BusinessData.sqlprojAssemblyReference.cache
 C:\Users\David.McNally\DavRepositories\GoodEatsApplication\BusinessData\obj\Debug\BusinessData.dll
 C:\Users\David.McNally\DavRepositories\GoodEatsApplication\BusinessData\obj\Debug\BusinessData.pdb
+C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\BusinessData\bin\Debug\BusinessData.dacpac
+C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\BusinessData\bin\Debug\BusinessData.dll
+C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\BusinessData\bin\Debug\BusinessData.pdb
+C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\BusinessData\obj\Debug\BusinessData.sqlprojAssemblyReference.cache
+C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\BusinessData\obj\Debug\BusinessData.dll
+C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\BusinessData\obj\Debug\BusinessData.pdb
