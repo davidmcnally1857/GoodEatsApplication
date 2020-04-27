@@ -16,6 +16,50 @@ body {
     font-size: 2rem !important;
     color: #FF5A5F !important;
     font-weight: 700 !important;  
+    cursor: pointer;
+}
+
+
+.Signup {
+
+    cursor:pointer;
+}
+
+
+#overlay {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgba(0,0,0,0.6);
+}
+
+.cv-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px #ddd solid;
+    border-top: 4px #2e93e6 solid;
+    border-radius: 50%;
+    animation: sp-anime 0.8s infinite linear;
+}
+
+@keyframes sp-anime {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.is-hide {
+    display: none;
 }
 
 
@@ -102,12 +146,21 @@ body {
 
     background-color: rgb(247, 247, 247);
     padding:5%;
+    
 }
+
+    .information-details h4 {
+
+        text-align:left;
+    }
 
 .information-details ul {
 
     list-style-type:none;
+    text-align:left;
+    padding-left:0;
 }
+
 
 #hiddenchat {
     display: none;
@@ -152,16 +205,57 @@ footer {
     }
 
 
+
 .modal-header {
     text-align: center;
 }
 
 .modal-title {
-    font-weight: 700;
+
+    text-align:center;
+    width:100%;
+    font-size:35px;
+
+   
 }
 
+    
+
 .modal-body {
+
+
     text-align: center;
+    height:300px;
+}
+
+    .modal-body a {
+        font-weight: 700;
+        
+    }
+
+#forgotpassword {
+
+    font-weight:300;
+    border:none;
+}
+
+.modal-footer {
+
+width:100%;
+ padding-right:30% !important;
+
+
+
+}
+
+
+.modal-footer button {
+    background-image: linear-gradient(to right, #ff512f, #dd2476 );
+    text-align:center;
+    width:60%;
+    font-size:20px;
+
+   
 }
 
 
@@ -199,6 +293,7 @@ footer {
     .HelpSection h4 {
         font-weight: 700;
         font-size: 14px;
+
     }
 
     .HelpSection :hover {

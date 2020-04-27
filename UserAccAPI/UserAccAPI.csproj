@@ -343,6 +343,10 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataManager.Library\DataManager.Library.csproj">
+      <Project>{C0C1FCB7-9E90-4336-AE31-409A3244FFD5}</Project>
+      <Name>DataManager.Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GoodEatsUI\GoodEatsUI.csproj">
       <Project>{CFAAEE3E-DD41-4EC8-B0E9-ED397EAF954C}</Project>
       <Name>GoodEatsUI</Name>

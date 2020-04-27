@@ -573,3 +573,7 @@ C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\UserAcc
 C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\UserAccAPI\obj\Debug\UserAccAPI.csproj.CopyComplete
 C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\UserAccAPI\obj\Debug\UserAccAPI.dll
 C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\UserAccAPI\obj\Debug\UserAccAPI.pdb
+C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\UserAccAPI\bin\DataManager.Library.dll
+C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\UserAccAPI\bin\Dapper.dll
+C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\UserAccAPI\bin\DataManager.Library.pdb
+C:\Users\David.McNally\DavRepositories\GEApplication\GoodEatsApplication\UserAccAPI\bin\Dapper.xml
